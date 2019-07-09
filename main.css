@@ -1,0 +1,65 @@
+html {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container-main {
+    height: 100vh;
+}
+
+#container-card {
+    width: 40vw;
+    height: 35vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#container-card img {
+    margin: 4vh 0;
+    width: 10vw;
+}
+
+#container-btn {
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#container-btn button {
+    margin: 0 10px;
+    padding: 15px 35px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    background-color: rgb(255, 65, 65);
+    outline: 0;
+}
+
+#container-btn button:hover {
+    background-color: rgb(255, 94, 94);
+    cursor: pointer;
+}
+
+#container-json {
+    width: 40vw;
+}
+
+#json-response {
+    margin: 40px auto;
+    padding: 5px;
+    width: 30vw;
+    min-height: 20vh;
+    max-height: 40vh;
+    overflow: auto;
+    background-color: rgb(236, 236, 236);
+    font-family: 'Roboto', sans-serif;
+    transition: ease-in-out 0.3s;
+}
